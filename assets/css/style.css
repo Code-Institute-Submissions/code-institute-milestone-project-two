@@ -1,84 +1,119 @@
 /* ROOT */
 
-.amiri{
-    font-family: 'Amiri', sans-serif;
+:root{
+    --primary:#fff;
+    --primaryDark:#fff;
+    --primaryLight:#fff;
+}
+
+.raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ROOT */
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar{
+    margin-left: 10%;
+    margin-right: 10%;  
+}
+.navbar-brand{
+    font-size: 25px;
+}
+
+.nav-container,
+.footer{
     
+    font-size: 25px;
 }
 
 .index-body-container{
-    margin-top: 50px;
-    margin-left: 170px;
-    margin-right: 170px; 
-    margin-bottom: 170px;
+    background-attachment: fixed;
+    background-color: white;
+    margin-top: 2.5%;
+    margin-left: 10%;
+    margin-right: 10%;  
+    margin-bottom: 2.5%; 
     text-align: center;
 }
 
 .banner-container{
-    height: 400px;
-	background:  url(../images/bielefeld-city-header.jpg) center center no-repeat;
+    background:  url(../images/rathaus-fountain.jpeg) center center no-repeat;
+    
+    top: 0;
+    height: 600px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+
+#banner-image{
+    width: 100%;
+    height: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+    align-items: center;
 }
 
-.jumbotron{
-    color: white;
-}
 
 .city-image-container{
+    min-height: 300px;
+    background:  url(../images/bielefeld-city-header.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  
+}
+.whats-on-image-container{
     min-height: 300px;
     background:  url(../images/city-night-wide.jpeg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+    
 }
 
-
-
+.city-info-text,
+.whats-on-text,
+.map-info{
+   
+    padding: 20px;
+    background-color: var(--primary);
+}
 
 #small-map{
     height: 250px;
 }
 
+.large-map-container{
+    height: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.map-controls{
+    background: lightgray;
+    border: red 1px dashed;
+    
+}
 /* FOOTER */
 
-footer {
-	background-color: lightgray;
-	
-}
-
-.quick-links {
-    color: red;
-	text-decoration: none;
-	font-weight: 200;
-	text-align: center;
-}
-.quick-links a:hover{
-    color: #4f5b62;
-}
-
-.social-links {
-	text-align: center;
-}
-
-.social-links li a i {
-	width: 32px;
-	height: 32px;
-	padding: 12px 0;
-	border-radius: 50%;
-	font-size: 30px;
-	line-height: 7px;
-	text-align: center;
-	color: #fafafa;
-	background: transparent;
-	transition: all 0.35s ease-in-out;
-	-moz-transition: all 0.35s ease-in-out;
-	-webkit-transition: all 0.35s ease-in-out;
-	-o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-	color: #4f5b62;
+.footer-brand {
+    color: #000;
 }
