@@ -1,0 +1,112 @@
+[
+    {
+        "restaurantName" : "KDW",
+        "id" : 1,
+        "lat" : "52.023876",
+        "lng" : "8.517106",
+        "rating" : "4.5/5",
+        "foodType" : "Seafood, Mediterranean",
+        "reviews1" : "Top address, must visit!",
+        "reviews2" : "Loved the octopus"
+            
+    },
+    {
+        "restaurantName" : "Jivino Enoteca",
+        "id" : 2,
+        "lat" : "52.019645",
+        "lng" : "8.527991",
+        "rating" : "4.5/5",
+        "foodType" : "Mediterranean, European",
+        "reviews1" : "A real gem",
+        "reviews2" : "Another fantastic restaurant!"
+            
+    },
+    {
+        "restaurantName" : "Argentina - Steak & Mehr",
+        "id" : 3,
+        "lat" : "52.018075",
+        "lng" : "8.533971",
+        "rating" : "4.5/5",
+        "foodType" : "Steakhouse, Barbecue",
+        "reviews1" : "Great place for a steak",
+        "reviews2" : "Delicious steak & grill options!"
+            
+    },
+    {
+        "restaurantName" : "Gui",
+        "id" : 4,
+        "lat" : "52.020041",
+        "lng" : "8.532315",
+        "rating" : "4.5/5",
+        "foodType" : "European, Central European ",
+        "reviews1" :  "Perfect food, friendly staff",
+        "reviews2" :  "You MUST eat here when in Bielefeld!"
+            
+    },
+    {
+        "restaurantName" : "Las Tapas",
+        "id" : 5,
+        "lat" : "52.024768",
+        "lng" : "8.529734",
+        "rating" : "4.5/5",
+        "foodType" : "Seafood, Mediterranean",
+        "reviews1" : "Great food, staff and atmosphere",
+        "reviews2" : "Lovely staff!"
+            
+    },
+    {
+        "restaurantName" : "Krispy Kebab - Der Doner Aus Berlin",
+        "id" : 6,
+        "lat" : "52.022577",
+        "lng" : "8.529288",
+        "rating" : "5/5",
+        "foodType" : "Fast Food, Doner",
+        "reviews1" : "If Carlsberg did kebabs!",
+        "reviews2" : "Quite simply the best thing I've ever put in my mouth"
+            
+    },
+    {
+        "restaurantName" : "Kado Sushi",
+        "id" : 7,
+        "lat" : "52.025239,",
+        "lng" : "8.528690",
+        "rating" : "4.5/5",
+        "foodType" : "Japanese, Sushi",
+        "reviews1" : "Best sushi in Bielefeld",
+        "reviews2" : "Gorgeous onigiri"
+            
+    },
+    {
+        "restaurantName" : "Nohut",
+        "id" : 8,
+        "lat" : "52.019386",
+        "lng" : "8.529358",
+        "rating" : "4.5/5",
+        "foodType" : "Middle Eastern, Mediterranean",
+        "reviews1" : "Good homemade Turkish-style food in the Alstadt",
+        "reviews2" : "Great place with family character"
+            
+    },
+    {
+        "restaurantName" : "Gaststätte Vahle",
+        "id" : 9,
+        "lat" : "52.021811",
+        "lng" : "8.520646",
+        "rating" : "4.5/5",
+        "foodType" : "German, European",
+        "reviews1" : "Schnitzel Day was delightful",
+        "reviews2" : "Authentic!"
+            
+    },
+    {
+        "restaurantName" : "Rancho Steakhaus",
+        "id" : 10,
+        "lat" : "52.019643",
+        "lng" : "8.534618",
+        "rating" : "4.5/5",
+        "foodType" : "Steakhouse, Barbecue ",
+        "reviews1" : "A really great steakhouse in Bielefeld",
+        "reviews2" : "The meat just fell off the bone! Delicious."
+            
+    }
+]

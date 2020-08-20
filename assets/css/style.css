@@ -101,17 +101,15 @@
 
 .large-map-container{
     height: 800px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10%;
+    width: 100%;
+}
+#large-map{
+    height: 70%;
     margin-right: 10%;
+    margin-left: 10%;
 }
 
-.map-controls{
-    background: lightgray;
-    border: red 1px dashed;
-    
-}
+
 /* FOOTER */
 
 .footer-brand {

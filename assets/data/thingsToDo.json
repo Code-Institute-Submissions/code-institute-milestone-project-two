@@ -1,0 +1,82 @@
+[
+    {
+        "activityName" : "Heimat-Tierpark Olderdissen",
+        "id" : "1",
+        "lat" : "52.020359",
+        "lng" : "8.499900",
+        "activityRating" : "5/5",
+        "activityInfo" : "Free park zoo, open 24 hours, with enclosures housing more than 450 species of animals & birds."
+    },
+    {
+        "activityName" : "Sparrenburg Castle",
+        "id" : "2",
+        "lat" : "52.014920",
+        "lng" : "8.526767",
+        "activityRating" : "4.5/5",
+        "activityInfo" : "Restored medieval fort with a visitor center, guided underground tours & a climbable 120-step tower."
+    },
+    {
+        "activityName" : "Botanischer Garten",
+        "id" : "3",
+        "lat" : "52.014613",
+        "lng" : "8.511828",
+        "activityRating" : "4.5/5",
+        "activityInfo" : "Botanical garden with heather, alpine & medicinal displays, known for its rhododendrons & azaleas."
+    },
+    {
+        "activityName" : "Dr. Oetker Welt",
+        "id" : "4",
+        "lat" : "52.015482",
+        "lng" : "8.521268",
+        "activityRating" : "4.5/5",
+        "activityInfo" : "Custard powder factory redesigned to house the world-famous culinary brand's museum, exhibitions & lecture kitchens."
+    },
+    {
+        "activityName" : "Historisches Museum Bielefeld",
+        "id" : "5",
+        "lat" : "52.022712",
+        "lng" : "8.544222",
+        "activityRating" : "4/5",
+        "activityInfo" : "Local history museum housed in a former spinning mill with exhibits focused on industrial heritage."
+    },
+    {
+        "activityName" : "Kunsthalle Bielefeld",
+        "id" : "6",
+        "lat" : "52.018110",
+        "lng" : "8.526072",
+        "activityRating" : "4.5/5",
+        "activityInfo" : "Iconic, cube-shaped modern & contemporary art museum, designed by Philip Johnson, with a sculpture garden."
+    },
+    {
+        "activityName" : "LOOM Bielefeld",
+        "id" : "7",
+        "lat" : "52.025567",
+        "lng" : "8.532430",
+        "activityRating" : "4/5",
+        "activityInfo" : "Modern mall offering 110 shops, including German & international brands, plus a bustling food court."
+    },
+    {
+        "activityName" : "LENKWERK Bielefeld",
+        "id" : "8",
+        "lat" : "52.028280",
+        "lng" : "8.554999",
+        "activityRating" : "4/5",
+        "activityInfo" : "Events, festivals & exhibitions in a contemporary vintage car center with seminar rooms & dining."
+    },
+    {
+        "activityName" : "Obersee Bielefeld & Schildescher Viaduct",
+        "id" : "9",
+        "lat" : "52.057408",
+        "lng" : "8.564171",
+        "activityRating" : "4/5",
+        "activityInfo" : "Popular grassy park offering a jogging path that encircles the lake, plus mini golf & playgrounds and scenic views of the railway bridge/viaduct."
+    },
+    {
+        "activityName" : "SchücoArena (Bielefelder Alm) - DSC Arminia Bielefeld Stadium",
+        "id" : "10",
+        "lat" : "52.031490",
+        "lng" : "8.516137",
+        "activityRating" : "4/5",
+        "activityInfo" : "Footall stadium used by local team Arminia Bielefeld. Experience the welcoming and raucous atmosphere of German football!"
+    }
+]

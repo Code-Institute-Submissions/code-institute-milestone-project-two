@@ -1,0 +1,92 @@
+[
+    {
+        "hotelName" : "LEGERE HOTEL Bielefeld",
+        "id" : "1",
+        "lat" : "52.025784",
+        "lng" : "8.536703",
+        "customerRating" : "4.5/5",
+        "feature1" : "Fitness Centre",
+        "feature2" : "Restaurant"
+    },
+    {
+        "hotelName" : "Parkhotel Bielefeld",
+        "id" : "2",
+        "lat" : "52.059944",
+        "lng" : "8.603029",
+        "customerRating" : "4.5/5",
+        "feature1" : "Wellness Centre",
+        "feature2" : "Free Parking"
+    },
+    {
+        "hotelName" : "Alstadt-Hotel Bielefeld",
+        "id" : "3",
+        "lat" : "52.022338",
+        "lng" : "8.530198",
+        "customerRating" : "4.5/5",
+        "feature1" : "Contemporary décor", 
+        "feature2" : "Bar/Lounge"
+    },
+    {
+        "hotelName" : "Hotel Bielefelder Hof",
+        "id" : "4",
+        "lat" : "52.028887",
+        "lng" : "8.534206",
+        "customerRating" : "4.5/5",
+        "feature1" : "Free Wifi",
+        "feature2" : "Restaurant"
+    },
+    {
+        "hotelName" : "Motelo Haus",
+        "id" : "5",
+        "lat" : "52.009121",
+        "lng" : "8.541938",
+        "customerRating" : "4.5/5",
+        "feature1" : "Free WiFi",
+        "feature2" : "Parking"
+    },
+    {
+        "hotelName" : "Boardinghouse Bielefeld",
+        "id" : "6",
+        "lat" : "52.021279",
+        "lng" : "8.530855",
+        "customerRating" : "4.5/5",
+        "feature1" : "Self-catering apartments",
+        "feature2" : "Modern décor"
+    },
+    {
+        "hotelName" : "Hotel Brackweder Hof",
+        "id" : "7",
+        "lat" : "51.980566",
+        "lng" : "8.477848",
+        "customerRating" : "4/5",
+        "feature1" : "Free WiFi",
+        "feature2" : "Free Parking"
+    },
+    {
+        "hotelName" : "Hotel Wintersmuehle",
+        "id" : "8",
+        "lat" : "",
+        "lng" : "",
+        "customerRating" : "4/5",
+        "feature1" : "Free Wifi",
+        "feature2" : "Restaurant"
+    },
+    {
+        "hotelName" : "Hotel Diembeck",
+        "id" : "9",
+        "lat" : "51.938127",
+        "lng" : "8.571335",
+        "customerRating" : "4/5",
+        "feature1" : "Free WiFi",
+        "feature2" : "Pool"
+    },
+    {
+        "hotelName" : "STAYERY Bielefeld Hauptbahnhof",
+        "id" : "10",
+        "lat" : "52.030865",
+        "lng" : "8.536954",
+        "customerRating" : "4.5/5",
+        "feature1" : "Free Wifi",
+        "feature2" : "Concierge"
+    }
+]

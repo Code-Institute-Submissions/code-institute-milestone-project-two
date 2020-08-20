@@ -11,8 +11,3 @@ function initMap() {
     
   });
 }
-
-// ANIMATIONS
-// var tl = gsap.timeline();
-
-// tl.fromTo(".banner-container", {height: 0}, {height: 600, duration: 0.5});
