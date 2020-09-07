@@ -68,7 +68,7 @@
     {
         "restaurantName" : "Kado Sushi",
         "id" : 7,
-        "lat" : "52.025239,",
+        "lat" : "52.025239",
         "lng" : "8.528690",
         "rating" : "4.5/5",
         "foodType" : "Japanese, Sushi",
@@ -107,6 +107,5 @@
         "foodType" : "Steakhouse, Barbecue ",
         "reviews1" : "A really great steakhouse in Bielefeld",
         "reviews2" : "The meat just fell off the bone! Delicious."
-            
     }
 ]

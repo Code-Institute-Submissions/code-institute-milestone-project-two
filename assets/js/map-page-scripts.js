@@ -18,7 +18,7 @@ function initMap() {
 const restaurants = "assets/data/restaurants.json";
 const hotels = "assets/data/hotels.json";
 const thingsToDo = "assets/data/thingsToDo.json"
-let infowindow
+let infowindow;
 
 $.getJSON(restaurants, function (data) { 
   // Loop through the data
@@ -31,6 +31,7 @@ $.getJSON(restaurants, function (data) {
     let marker = new google.maps.Marker({
       position: myLatlng,
       icon: restaurantIcon,
+      animation: google.maps.Animation.DROP,
       map: map,
     });
 
@@ -41,31 +42,16 @@ $.getJSON(restaurants, function (data) {
     infoContent += "<p>" + "'" + data.reviews1 + "'" + "</g>";
     infoContent += "<p>" + "'" + data.reviews2 + "'" + "</p>";
     
-
-    // Add info window
-    if (infowindow != null) {
-        infowindow.close() // close any other infowindows first
-    }
-    
-    marker.info = new google.maps.InfoWindow({
-      content: infoContent,
-    });
-
     // Add listener for info window
     google.maps.event.addListener(marker, "click", function () {
-      marker.info.open(map, marker);
+        if (marker.info != null) {
+            marker.info.close() // close any other infowindows first
+        }
+        marker.info = new google.maps.InfoWindow({
+        content: infoContent,
     });
-
-    // Add marker location to loc variale
-    let loc = new google.maps.LatLng(
-      marker.position.lat(),
-      marker.position.lng()
-    );
-
-    // extend bounds with loc
-    // bounds.extend(loc);
-
-
+        marker.info.open(map, marker);
+    });
    
   });
 });
@@ -81,6 +67,7 @@ $.getJSON(hotels, function (data) {
     let marker = new google.maps.Marker({
       position: myLatlng,
       icon: hotelIcon,
+      animation: google.maps.Animation.DROP,
       map: map,
     });
 
@@ -105,15 +92,6 @@ $.getJSON(hotels, function (data) {
       marker.info.open(map, marker);
     });
 
-    // Add marker location to loc var
-    let loc = new google.maps.LatLng(
-      marker.position.lat(),
-      marker.position.lng()
-    );
-
-    // extend bounds with loc
-    // bounds.extend(loc);
-
 
    
   });
@@ -130,6 +108,7 @@ $.getJSON(thingsToDo, function (data) {
     let marker = new google.maps.Marker({
       position: myLatlng,
       icon: thingsToDoIcon,
+      animation: google.maps.Animation.DROP,
       map: map,
     });
 
@@ -153,16 +132,7 @@ $.getJSON(thingsToDo, function (data) {
       marker.info.open(map, marker);
     });
 
-    // Add marker location to loc var
-    let loc = new google.maps.LatLng(
-      marker.position.lat(),
-      marker.position.lng()
-    );
-
-    // extend bounds with loc
-    // bounds.extend(loc);
-
-
    
   });
 });
+
