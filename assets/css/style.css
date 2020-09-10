@@ -127,6 +127,44 @@ a:hover, a:visited, a:link, a:active{
     margin-left: 10%;
 }
 
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.accordion:after {
+  content: '\02795'; 
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+.active:after {
+  content: "\2796"; 
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion-expanded{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
 .seedo-banner-container{
     background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(../images/bridge-far.jpg) center center no-repeat;
     top: 0;
@@ -174,6 +212,43 @@ a:hover, a:visited, a:link, a:active{
 }
 .seedo-text{
     padding-top: 15px;
+}
+
+/* SIGNUP FORM */
+.signup-body-container{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.sign-up-form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.field {
+  margin-bottom: 10px;
+}
+
+.field label {
+  display: block;
+  font-size: 30px;
+  color: #777;
+}
+
+.field input {
+  display: block;
+  min-width: 250px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 6px 30px;
+  font-size: 35px;
+  border: none
 }
 
 /* FOOTER */

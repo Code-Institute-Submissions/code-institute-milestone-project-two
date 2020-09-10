@@ -7,25 +7,30 @@
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+	
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
-    
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-   
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+	</script>
+	<script type="text/javascript">
+		(function(){
+	      emailjs.init("user_eWrL0zPfiwLFrEZOHu8uj");
+	   })();
+	</script>
     
 </head>
 <body>
     <!---nav-->
-	<div class="row">
-    <nav class="col navbar sticky-top navbar-expand-lg navbar-light navbar-background hind-title">
+	<div class="row" id="myHeader">
+		<nav class="col navbar sticky-top navbar-expand-lg navbar-light navbar-background hind-title">
 			<a class="navbar-brand hvr-grow hind-title" href="index.html">EXPLORE BIELEFELD</a>
 	
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span></button>
+				<span class="navbar-toggler-icon"></span></button>
 	
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="amiri ml-auto navbar-nav">
@@ -43,28 +48,39 @@
 		</nav>
 	</div>
     <!---/nav-->
+	<div class="signup-body-container">
+		<form id="form" class="sign-up-form montserrat">
+			<div class="field">
+				<label for="from_name">Name</label>
+				<input type="text" name="from_name" id="from_name" placeholder="Your name..." required>
+		        </div>
+				<div class="field">
+					<label for="reply_to">Email</label>
+					<input type="email" name="from_email" id="from_email" placeholder="Your email address..." required>
+		        </div>
+					<div class="field">
+						<label for="message">Message</label>
+						<textarea name="message" id="message" placeholder="Please add me to the mailing list!" required></textarea>
+					</div>
+					<input class="hind-title hvr-grow" type="submit" id="button" value="Send!">
+		    </form>
+	</div>
 
-    <section class="row large-map-container container-fluid">
-        <div id="large-map" class="col"></div>
-        
-    </section>
-    
 	
-    
-    <nav class="footer navbar">
+						
+
+    <!-- foot -->
+	<nav class="footer navbar">
 		<a class="footer-brand hind-title" href="#">Back to Top</a>
 	</nav>
 
 
-	<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDhhueM0aeKbzPeVxq3Edjl_T7gMDJ-Zk&callback=initMap&libraries=places"></script>
-    
+
 	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
 		crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
-
-    <script src="assets/js/map-page-scripts.js" type="text/javascript"></script>
+    <script src="assets/js/sign-up-scripts.js" type="text/javascript"></script>
 	
 </body>
 </html>

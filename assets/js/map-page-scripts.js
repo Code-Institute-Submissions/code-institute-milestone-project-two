@@ -10,10 +10,9 @@ function initMap() {
     },
     zoom: 13.5,
     mapTypeId: "hybrid",
+    
   });
 }
-
-// Get the Json file data
 
 const restaurants = "assets/data/restaurants.json";
 const hotels = "assets/data/hotels.json";
@@ -48,7 +47,7 @@ $.getJSON(restaurants, function (data) {
             marker.info.close() // close any other infowindows first
         }
         marker.info = new google.maps.InfoWindow({
-        content: infoContent,
+        content: infoContent, maxWidth: 200 
     });
         marker.info.open(map, marker);
     });
@@ -84,7 +83,7 @@ $.getJSON(hotels, function (data) {
     }
     
     marker.info = new google.maps.InfoWindow({
-      content: infoContent,
+      content: infoContent, maxWidth: 200 
     });
 
     // Add listener for info window
@@ -124,7 +123,7 @@ $.getJSON(thingsToDo, function (data) {
     }
     
     marker.info = new google.maps.InfoWindow({
-      content: infoContent,
+      content: infoContent, maxWidth: 200 
     });
 
     // Add listener for info window
