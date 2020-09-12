@@ -63,10 +63,10 @@
         "feature2" : "Free Parking"
     },
     {
-        "hotelName" : "Hotel Wintersmuehle",
+        "hotelName" : "Hotel Wintersmühle",
         "id" : "8",
-        "lat" : "",
-        "lng" : "",
+        "lat" : "51.938119",
+        "lng" : "8.571333",
         "customerRating" : "4/5",
         "feature1" : "Free Wifi",
         "feature2" : "Restaurant"
@@ -74,8 +74,8 @@
     {
         "hotelName" : "Hotel Diembeck",
         "id" : "9",
-        "lat" : "51.938127",
-        "lng" : "8.571335",
+        "lat" : "51.969011",
+        "lng" : "8.450339",
         "customerRating" : "4/5",
         "feature1" : "Free WiFi",
         "feature2" : "Pool"
