@@ -51,7 +51,6 @@ function addMarkerListener(infoContent, marker) {
 
 }
 
-console.log(restaurantMarkers);
 
 function restaurantDisplayFunction(data) {
     // Set info window content
@@ -98,15 +97,15 @@ function loadMarkers(jsonData, iconPath, infoDisplayFunction) {
     });
 }
 
-function toggleMarker(){
-	if (document.getElementById("toggleMarkers").checked)
-		show = map;
-	else
-	    show = null;
-	for (var i = 0; i < markers.length; i++) {
-		markers[i].setMap(show);
-	}
-}
+// LIST BUTTONS FUNCTION
 
+$('.buttons button').click(function (){
+        $('#toggleArea').empty();
+        $('#toggleArea').html($("#" + $(this).data('link')).html());
+    });
+    
+$('.reset button').click(function(){
+        $('#toggleArea').empty();
+});
 
 
