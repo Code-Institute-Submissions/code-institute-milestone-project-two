@@ -7,7 +7,7 @@ const initialPosition = {
     'lat': 52.022,
     'lng': 8.532
 }
-const zoomLevel = 13.5;
+const zoomLevel = 12;
 var infowindow;
 var openMarker;
 
@@ -15,12 +15,35 @@ var restaurantMarkers = [];
 var hotelMarkers = [];
 var thingsToDoMarkers = [];
 
+// LIST BUTTONS FUNCTION
+
+$('.buttons button').click(function (){
+        $('#toggleArea').empty();
+        $('#toggleArea').html($("#" + $(this).data('link')).html());
+    });
+    
+$('.reset button').click(function(){
+        $('#toggleArea').empty();
+});
+
+$('#restaurantButton').on("click", function() {
+        loadMarkers(restaurants, "assets/images/icons/restaurantIcon.png", restaurantDisplayFunction);
+    });
+$('#hotelsButton').on("click", function() {
+        loadMarkers(hotels, "assets/images/icons/hotelIcon.png", hotelDisplayFunction);
+    });
+$('#todoButton').on("click", function() {
+        loadMarkers(thingsToDo, "assets/images/icons/thingsToDoIcon.png", thingsToDoDisplayFunction);
+    });
+$('#resetButton').on("click", function() {
+        initMap();
+    });
+
+
+// MAP FUNCTIONS
 
 $(document).ready(function () {
     initMap(); // init map
-    loadMarkers(thingsToDo, "assets/images/icons/thingsToDoIcon.png", thingsToDoDisplayFunction);
-    loadMarkers(restaurants, "assets/images/icons/restaurantIcon.png", restaurantDisplayFunction);
-    loadMarkers(hotels, "assets/images/icons/hotelIcon.png", hotelDisplayFunction);
 });
 
 function initMap() {
@@ -93,19 +116,11 @@ function loadMarkers(jsonData, iconPath, infoDisplayFunction) {
 
             let content = infoDisplayFunction(data);
             addMarkerListener(content, marker);
+            
+            
         });
     });
 }
 
-// LIST BUTTONS FUNCTION
-
-$('.buttons button').click(function (){
-        $('#toggleArea').empty();
-        $('#toggleArea').html($("#" + $(this).data('link')).html());
-    });
-    
-$('.reset button').click(function(){
-        $('#toggleArea').empty();
-});
 
 

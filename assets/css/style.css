@@ -30,13 +30,14 @@
 .hind-jumbotron{
     font-family: 'Hind Siliguri', sans-serif;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 700;
     color: var(--jumboText);
+    text-shadow: 2px 2px #767676;
 }
 .jumbotron-sub{
     font-family: 'Montserrat', sans-serif;
-    
+    text-shadow: 2px 2px #767676;
     font-size: 25px;
     font-weight: 400;
     color: var(--jumboText);
@@ -131,10 +132,13 @@ a:hover, a:visited, a:link, a:active{
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../images/rathaus-fountain.jpeg) center center no-repeat;
     top: 0;
     height: 600px;
-    display: flex;
     margin: 0 auto;
     padding: 0;
     background-size: cover;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
     
 }
 .city-image-container{
@@ -209,7 +213,7 @@ a:hover, a:visited, a:link, a:active{
     width: 100%;
 }
 #large-map{
-    height: 700px;
+    height: 550px;
     margin-right: 10%;
     margin-left: 10%;
 }
@@ -230,10 +234,13 @@ a:hover, a:visited, a:link, a:active{
     background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(../images/bridge-far.jpg) center center no-repeat;
     top: 0;
     height: 600px;
-    display: flex;
     margin: 0 auto;
     padding: 0;
     background-size: cover;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
 }
 .jumbo{
     position: absolute;
@@ -261,11 +268,13 @@ a:hover, a:visited, a:link, a:active{
     float: left;
 }
 .seedo-item{
-    
     display: block;
 }
 .seedo-text{
     padding-top: 15px;
+}
+.seedo-image{
+    display: inline;
 }
 /* SEE&DO PAGE */
 /* ATTRACTIONS PAGE */
@@ -273,10 +282,13 @@ a:hover, a:visited, a:link, a:active{
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ), url(../images/kesselbrink.jpeg) center center no-repeat;
     top: 0;
     height: 600px;
-    display: flex;
     margin: 0 auto;
     padding: 0;
     background-size: cover;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
 }
 .sub-items-container{
     margin-top: 5%;
@@ -347,19 +359,16 @@ input[type="submit"] {
     
     .city-image-container,
     .map-info,
-    .whats-on-image-container {
+    .whats-on-image-container,
+    .seedo-image {
         display: none;
     }
     .footer,
     .social-links{
         text-align: center;
     }
-    .jumbo{
-        top: 30%;
-    }
-    .jumbotron-sub{
-        display: none;
-    }
+    
+    
 }
 
 @media only screen and (max-width: 450px) {

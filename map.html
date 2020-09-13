@@ -20,12 +20,12 @@
 </head>
 <body>
     <!---nav-->
-	<div class="row">
-    <nav class="col navbar sticky-top navbar-expand-lg navbar-light navbar-background hind-title">
+	<div class="row" id="myHeader">
+		<nav class="col navbar sticky-top navbar-expand-lg navbar-light navbar-background hind-title">
 			<a class="navbar-brand hvr-grow hind-title" href="index.html">EXPLORE BIELEFELD</a>
 	
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span></button>
+				<span class="navbar-toggler-icon"></span></button>
 	
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="amiri ml-auto navbar-nav">
@@ -53,11 +53,19 @@
     <br>
 
 	<div class="map-body-container">
-		<div class="buttons">
-			<button id="restaurantButton" type="button" class="btn btn-primary" data-link="restaurantDisplay">restaurants</button>
-			<button id="hotelsButton" type="button" class="btn btn-secondary" data-link="hotelsDisplay">hotels</button>
-			<button id="todoButton" type="button" class="btn btn-success" data-link="todoDisplay">things</button>
-            <button type="button" class="reset btn btn-light">Close</button>
+		<div class="row buttons">
+			<div class="col-md-3">
+				<button id="restaurantButton" type="button" class="btn btn-primary" data-link="restaurantDisplay">restaurants</button>
+			</div>
+			<div class="col-md-3">
+				<button id="hotelsButton" type="button" class="btn btn-secondary" data-link="hotelsDisplay">hotels</button>
+			</div>
+			<div class="col-md-3">
+				<button id="todoButton" type="button" class="btn btn-success" data-link="todoDisplay">things</button>
+			</div>
+			<div class="col-md-3">
+				<button id="resetButton" type="button" class="reset btn btn-light">Close</button>
+			</div>
 		</div>
         <br>
 
