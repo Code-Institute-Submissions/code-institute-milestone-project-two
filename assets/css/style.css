@@ -296,7 +296,7 @@ a:hover, a:visited, a:link, a:active{
 
 .attractions-image{
     min-height: 150px;
-    background:  url(.../images/castle-night.jpg) center center no-repeat;
+    background:  url(/assets/images/castle-night.jpg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -304,7 +304,7 @@ a:hover, a:visited, a:link, a:active{
 }
 .eat-drink-image{
     min-height: 150px;
-    background:  url(assets/images/restaurant-icon.jpeg) center center no-repeat;
+    background:  url(/assets/images/restaurant-icon.jpeg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -312,7 +312,7 @@ a:hover, a:visited, a:link, a:active{
 }
 .dyk-image{
     min-height: 150px;
-    background:  url(.../images/history-icon.jpg) center center no-repeat;
+    background:  url(/assets/images/history-icon.jpg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
