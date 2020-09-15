@@ -42,6 +42,21 @@
     font-weight: 400;
     color: var(--jumboText);
 }
+.hind-card{
+    font-family: 'Hind Siliguri', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--titlesText);
+}
+
+.b-label{
+    font-family: 'Montserrat', sans-serif;
+    
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--jumboText);
+}
 
 /* GENERAL RULES */
 
@@ -61,8 +76,12 @@
 a:hover, a:visited, a:link, a:active{
     color: var(--titlesText);
     text-decoration: none;
-} 
-.map-body-container,
+}
+.map-buttons-container{
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+}
 .seedo-body-container,
 .signup-body-container,
 .attractions-body-container{
@@ -139,7 +158,6 @@ a:hover, a:visited, a:link, a:active{
 	align-items: center;
 	justify-content: center;
 	position: relative;
-    
 }
 .city-image-container{
     min-height: 300px;
@@ -206,7 +224,7 @@ a:hover, a:visited, a:link, a:active{
 /* INDEX */
 
 
-/* MAP */
+/* MAP & BUTTONS */
 
 .large-map-container{
     
@@ -217,14 +235,27 @@ a:hover, a:visited, a:link, a:active{
     margin-right: 10%;
     margin-left: 10%;
 }
-.restaurants-container{
+#restaurantButton{
+    background-color: green;
+}
+#hotelsButton{
+    background-color: red;
+}
+#todoButton{
     background-color: blue;
 }
-.hotels-container{
+#resetButton{
     background-color: grey;
 }
-.todo-container{
-    background-color: green;
+.toggle-container{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+}
+.card-img-top{
+    min-height: 180px;
+    max-height: 200px;
+    object-fit: cover;
 }
 
 /* MAP */
@@ -247,31 +278,52 @@ a:hover, a:visited, a:link, a:active{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
 }
 
 .seedo-intro{
     margin-top: 5%;
     margin-bottom: 5%;
 }
-.seedo-list-container{
+.seedo-list{
     margin-left: 5%;
     margin-right: 5%;
 }
 
-.seedo-image{
-    object-fit: cover;
-    margin-right: 15px;
-    width: 200px;
-    height: 150px;
-    position: relative;
-    float: left;
+.seedo-item-container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.attractions-image{
+    min-height: 150px;
+    background:  url(/assets/images/castle-night.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.eat-drink-image{
+    min-height: 150px;
+    background:  url(/assets/images/restaurant-icon.jpeg) center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.dyk-image{
+    min-height: 150px;
+    background:  url(/assets/images/history-icon.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 .seedo-item{
     display: block;
 }
 .seedo-text{
-    padding-top: 15px;
+    float: right;
+    padding: 20px;
 }
 .seedo-image{
     display: inline;
@@ -302,7 +354,6 @@ a:hover, a:visited, a:link, a:active{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-  
 }
 .todo-bg-2{
     min-height: 300px;
@@ -315,12 +366,36 @@ a:hover, a:visited, a:link, a:active{
 }
 .todo-bg-3{
     min-height: 300px;
-    background:  url(../images/bielefeld-city-header.jpg) center center no-repeat;
+    background:  url(../images/tierpark-crop.jpeg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
   
+}
+.food-bg-1{
+    min-height: 300px;
+    background:  url(../images/salvas-tables.jpeg) center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.food-bg-2{
+    min-height: 300px;
+    background:  url(../images/krispy-kebab.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.food-bg-3{
+    min-height: 300px;
+    background:  url(../images/nichtschwimmer.jpeg) center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 
@@ -350,6 +425,15 @@ input[type="submit"] {
 
 /* MEDIA QUERIES */
 
+@media only screen and (max-width: 900px) {
+    .card-deck{
+        flex-direction: column;
+    }
+    .b-label{
+        font-size: 18px;
+    }
+}
+
 @media only screen and (max-width: 769px) {
     .index-banner-container,
     .seedo-banner-container,
@@ -367,13 +451,21 @@ input[type="submit"] {
     .social-links{
         text-align: center;
     }
+    .jumbotron-sub{
+        font-size: 18px; 
+    }
+    .hind-jumbotron{
+        font-size: 50px;
+    }
     
     
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 530px) {
+    
     .hind-title{
-        font-size: 28px;
+        font-size: 20px;
     }
 
 }
+

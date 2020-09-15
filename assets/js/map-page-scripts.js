@@ -7,7 +7,7 @@ const initialPosition = {
     'lat': 52.022,
     'lng': 8.532
 }
-const zoomLevel = 12;
+const zoomLevel = 13.5;
 var infowindow;
 var openMarker;
 
@@ -38,7 +38,7 @@ $('#todoButton').on("click", function() {
 $('#resetButton').on("click", function() {
         initMap();
     });
-
+//
 
 // MAP FUNCTIONS
 
@@ -53,7 +53,7 @@ function initMap() {
             lng: initialPosition.lng,
         },
         zoom: zoomLevel,
-        mapTypeId: "hybrid",
+        
 
     });
 }
