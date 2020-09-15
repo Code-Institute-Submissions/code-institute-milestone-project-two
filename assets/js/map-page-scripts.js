@@ -7,7 +7,7 @@ const initialPosition = {
     'lat': 52.022,
     'lng': 8.532
 }
-const zoomLevel = 13.5;
+const zoomLevel = 12;
 var infowindow;
 var openMarker;
 
