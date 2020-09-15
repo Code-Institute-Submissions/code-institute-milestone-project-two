@@ -247,10 +247,13 @@ a:hover, a:visited, a:link, a:active{
 #resetButton{
     background-color: grey;
 }
-.toggle-container{
+.card-container{
     margin-left: 15%;
     margin-right: 15%;
     text-align: left;
+}
+.card-text{
+    font-size: 15px;
 }
 .card-img-top{
     min-height: 180px;

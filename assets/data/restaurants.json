@@ -1,111 +1,121 @@
 [
     {
-        "restaurantName" : "KDW",
+        "name" : "KDW",
         "id" : 1,
         "lat" : "52.023876",
         "lng" : "8.517106",
         "rating" : "4.5/5",
         "foodType" : "Seafood, Mediterranean",
         "reviews1" : "Top address, must visit!",
-        "reviews2" : "Loved the octopus"
+        "reviews2" : "Loved the octopus",
+        "placeId": "ChIJddsHVWdVZUER9xrBSZQ6gAo"
             
     },
     {
-        "restaurantName" : "Jivino Enoteca",
+        "name" : "Jivino Enoteca",
         "id" : 2,
         "lat" : "52.019645",
         "lng" : "8.527991",
         "rating" : "4.5/5",
         "foodType" : "Mediterranean, European",
         "reviews1" : "A real gem",
-        "reviews2" : "Another fantastic restaurant!"
+        "reviews2" : "Another fantastic restaurant!",
+        "placeId": "ChIJSYjT7Bk9ukcRjWnQ8Zqtya8"
             
     },
     {
-        "restaurantName" : "Argentina - Steak & Mehr",
+        "name" : "Argentina Steakhouse",
         "id" : 3,
         "lat" : "52.018075",
         "lng" : "8.533971",
         "rating" : "4.5/5",
         "foodType" : "Steakhouse, Barbecue",
         "reviews1" : "Great place for a steak",
-        "reviews2" : "Delicious steak & grill options!"
+        "reviews2" : "Delicious steak & grill options!",
+        "placeId": "ChIJrz093ho9ukcRq__OKhMEs6E"
             
     },
     {
-        "restaurantName" : "Gui",
+        "name" : "Gui",
         "id" : 4,
         "lat" : "52.020041",
         "lng" : "8.532315",
         "rating" : "4.5/5",
         "foodType" : "European, Central European ",
         "reviews1" :  "Perfect food, friendly staff",
-        "reviews2" :  "You MUST eat here when in Bielefeld!"
+        "reviews2" :  "You MUST eat here when in Bielefeld!",
+        "placeId": "ChIJhfhNYxo9ukcRC5iRGtoIMMs"
             
     },
     {
-        "restaurantName" : "Las Tapas",
+        "name" : "Las Tapas",
         "id" : 5,
         "lat" : "52.024768",
         "lng" : "8.529734",
         "rating" : "4.5/5",
         "foodType" : "Seafood, Mediterranean",
         "reviews1" : "Great food, staff and atmosphere",
-        "reviews2" : "Lovely staff!"
+        "reviews2" : "Lovely staff!",
+        "placeId": "ChIJY6p5uBY9ukcRv2hW5AAaseU"
             
     },
     {
-        "restaurantName" : "Krispy Kebab - Der Doner Aus Berlin",
+        "name" : "Krispy Kebab - Der Doner Aus Berlin",
         "id" : 6,
         "lat" : "52.022577",
         "lng" : "8.529288",
         "rating" : "5/5",
         "foodType" : "Fast Food, Doner",
         "reviews1" : "If Carlsberg did kebabs!",
-        "reviews2" : "Quite simply the best thing I've ever put in my mouth"
+        "reviews2" : "Quite simply the best thing I've ever put in my mouth",
+        "placeId": "ChIJbw1TMBc9ukcRZ-2oXwaJi_k"
             
     },
     {
-        "restaurantName" : "Kado Sushi",
+        "name" : "Kado Sushi",
         "id" : 7,
         "lat" : "52.025239",
         "lng" : "8.528690",
         "rating" : "4.5/5",
         "foodType" : "Japanese, Sushi",
         "reviews1" : "Best sushi in Bielefeld",
-        "reviews2" : "Gorgeous onigiri"
+        "reviews2" : "Gorgeous onigiri",
+        "placeId": "ChIJ3z05kRY9ukcRSFns2i9YGqY"
             
     },
     {
-        "restaurantName" : "Nohut",
+        "name" : "Nohut",
         "id" : 8,
         "lat" : "52.019386",
         "lng" : "8.529358",
         "rating" : "4.5/5",
         "foodType" : "Middle Eastern, Mediterranean",
         "reviews1" : "Good homemade Turkish-style food in the Alstadt",
-        "reviews2" : "Great place with family character"
+        "reviews2" : "Great place with family character",
+        "placeId": "ChIJh6wyIBo9ukcRWhHnb8ZQcDM"
             
     },
     {
-        "restaurantName" : "Vahle Einmalig Anders",
+        "name" : "Gastätte Vahle",
         "id" : 9,
         "lat" : "52.021811",
         "lng" : "8.520646",
         "rating" : "4.5/5",
         "foodType" : "German, European",
         "reviews1" : "Schnitzel Day was delightful",
-        "reviews2" : "Authentic!"
+        "reviews2" : "Authentic!",
+        "placeId": "ChIJNeSpNj09ukcR-pJSVwBPTEA"
             
     },
     {
-        "restaurantName" : "Rancho Steakhaus",
+        "name" : "Rancho Steakhaus",
         "id" : 10,
         "lat" : "52.019643",
         "lng" : "8.534618",
         "rating" : "4.5/5",
         "foodType" : "Steakhouse, Barbecue ",
         "reviews1" : "A really great steakhouse in Bielefeld",
-        "reviews2" : "The meat just fell off the bone! Delicious."
+        "reviews2" : "The meat just fell off the bone! Delicious.",
+        "placeId": "ChIJn34kvRo9ukcR0bKCCaXLdtY"
     }
 ]
