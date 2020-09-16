@@ -77,7 +77,9 @@ function getCardHtml(place) {
                         <div class="card-body">
                             <h5 class="card-title hind-card">${place.name}</h5>
                             <h5 class="card-title hind-card">${place.rating} / 5</h5>
-                            <p class="address">${place.formatted_address}</p>
+                            <p class="address"><i class="fas fa-map-marked-alt"></i> : ${place.formatted_address}</p>
+                            <p class="number"><i class="fas fa-phone"></i> : ${place.formatted_phone_number}</p>
+                           
                             <p class="card-text"><small class="text-muted"><a href="${place.website}">Click here to view website</a></small></p>
                         </div>
                     </div>

@@ -1,11 +1,10 @@
-/* ROOT */
+/* TEXT RULES */
 
 :root{
     --primaryText:#000;
     --titlesText:#767676;
     --jumboText:#F5F5F5;
 }
-
 
 .montserrat{
     font-family: 'Montserrat', sans-serif;
@@ -37,7 +36,6 @@
 }
 .jumbotron-sub{
     font-family: 'Montserrat', sans-serif;
-    text-shadow: 2px 2px #767676;
     font-size: 25px;
     font-weight: 400;
     color: var(--jumboText);
@@ -101,9 +99,13 @@ a:hover, a:visited, a:link, a:active{
     margin-left: 5%;
     margin-right: 5%;
 }
+
 /* GENERAL RULES */
 
 /* FOOTER */
+.footer{
+    margin-top: 30px;
+}
 .social-links {
     text-align: right;
     padding: 0;
@@ -236,31 +238,29 @@ a:hover, a:visited, a:link, a:active{
     margin-left: 10%;
 }
 #restaurantButton{
-    background-color: green;
+    background-color: #50a709;
 }
 #hotelsButton{
-    background-color: red;
+    background-color: #d93f2a;
 }
 #todoButton{
-    background-color: blue;
+    background-color: #1b38b0;
 }
 #resetButton{
     background-color: grey;
 }
 .card-container{
-    margin-left: 15%;
-    margin-right: 15%;
     text-align: left;
+}
+.card-deck{
+    margin-bottom: 20px;
 }
 .card-text{
     font-size: 15px;
 }
-.card-img-top{
-    min-height: 180px;
-    max-height: 200px;
-    object-fit: cover;
+#cardsParent{
+    justify-content: center;
 }
-
 /* MAP */
 
 /* SEE&DO PAGE */
@@ -331,6 +331,10 @@ a:hover, a:visited, a:link, a:active{
 .seedo-image{
     display: inline;
 }
+.sub-items-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 /* SEE&DO PAGE */
 /* ATTRACTIONS PAGE */
 .attractions-banner-container{
@@ -344,10 +348,6 @@ a:hover, a:visited, a:link, a:active{
 	align-items: center;
 	justify-content: center;
 	position: relative;
-}
-.sub-items-container{
-    margin-top: 5%;
-    margin-bottom: 5%;
 }
 
 .todo-bg-1{
@@ -376,6 +376,21 @@ a:hover, a:visited, a:link, a:active{
 	background-size: cover;
   
 }
+
+/* FOOD PAGE */
+.food-banner-container{
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3) ), url(../images/weinmarkt.jpg) center center no-repeat;
+    top: 0;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0;
+    background-size: cover;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
 .food-bg-1{
     min-height: 300px;
     background:  url(../images/salvas-tables.jpeg) center center no-repeat;
@@ -400,7 +415,35 @@ a:hover, a:visited, a:link, a:active{
 	-o-background-size: cover;
 	background-size: cover;
 }
-
+/* DYK-PAGE */
+.dyk-banner-container{
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../images/old-town.jpg) center center no-repeat;
+    top: 0;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0;
+    background-size: cover;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.dyk-bg-1{
+    min-height: 300px;
+    background:  url(../images/park-woman-bike.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.dyk-bg-2{
+    min-height: 300px;
+    background:  url(../images/castle-low.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
 
 
@@ -408,7 +451,19 @@ a:hover, a:visited, a:link, a:active{
 
 
 /* SIGNUP FORM */
-
+.sign-up-banner-container{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3) ), url(../images/sign-up-banner.jpg) center center no-repeat;
+    top: 0;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0;
+    background-size: cover;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+    margin-bottom: 50px;
+}
 
 .center-form {
 	margin: 0 auto;
@@ -440,7 +495,10 @@ input[type="submit"] {
 @media only screen and (max-width: 769px) {
     .index-banner-container,
     .seedo-banner-container,
-    .attractions-banner-container{
+    .attractions-banner-container,
+    .food-banner-container,
+    .dyk-banner-container,
+    .sign-up-banner-container{
         max-height: 300px;
     }
     
