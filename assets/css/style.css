@@ -1,114 +1,125 @@
 /* TEXT RULES */
 
-:root{
-    --primaryText:#000;
-    --titlesText:#767676;
-    --jumboText:#F5F5F5;
+:root {
+	--primaryText: #000;
+	--titlesText: #767676;
+	--jumboText: #F5F5F5;
 }
 
-.montserrat{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+.montserrat {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
 }
 
-.hind{
-    font-family: 'Hind Siliguri', sans-serif;
-    font-weight: 500;
-    color: var(--primaryText);
-    font-size: 20px;
+.hind {
+	font-family: 'Hind Siliguri', sans-serif;
+	font-weight: 500;
+	color: var(--primaryText);
+	font-size: 20px;
 }
 
-.hind-title{
-    font-family: 'Hind Siliguri', sans-serif;
-    text-transform: uppercase;
-    font-size: 35px;
-    font-weight: 700;
-    color: var(--titlesText);
+.hind-title {
+	font-family: 'Hind Siliguri', sans-serif;
+	text-transform: uppercase;
+	font-size: 35px;
+	font-weight: 700;
+	color: var(--titlesText);
 }
 
-.hind-jumbotron{
-    font-family: 'Hind Siliguri', sans-serif;
-    text-transform: uppercase;
-    font-size: 80px;
-    font-weight: 700;
-    color: var(--jumboText);
-    text-shadow: 2px 2px #767676;
-}
-.jumbotron-sub{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    font-weight: 400;
-    color: var(--jumboText);
-}
-.hind-card{
-    font-family: 'Hind Siliguri', sans-serif;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--titlesText);
+.hind-jumbotron {
+	font-family: 'Hind Siliguri', sans-serif;
+	text-transform: uppercase;
+	font-size: 80px;
+	font-weight: 700;
+	color: var(--jumboText);
+	text-shadow: 2px 2px #767676;
 }
 
-.b-label{
-    font-family: 'Montserrat', sans-serif;
-    
-    font-size: 25px;
-    font-weight: 400;
-    color: var(--jumboText);
+.jumbotron-sub {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	color: var(--jumboText);
 }
+
+.hind-card {
+	font-family: 'Hind Siliguri', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 700;
+	color: var(--titlesText);
+}
+
+.b-label {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	color: var(--jumboText);
+}
+
 
 /* GENERAL RULES */
 
-.row{
-    margin-left: 0;
-    margin-right: 0;
-}
-.container-fluid{
-    padding-left: 0;
-    padding-right: 0;
+.row {
+	margin-left: 0;
+	margin-right: 0;
 }
 
-.navbar{
-    margin-left: 10%;
-    margin-right: 10%;  
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
 }
-a:hover, a:visited, a:link, a:active{
-    color: var(--titlesText);
-    text-decoration: none;
+
+.navbar {
+	margin-left: 10%;
+	margin-right: 10%;
 }
-.map-buttons-container{
-    margin-right: 10%;
-    margin-left: 10%;
-    text-align: center;
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+	color: var(--titlesText);
+	text-decoration: none;
 }
+
+.map-buttons-container {
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+}
+
 .seedo-body-container,
 .signup-body-container,
-.attractions-body-container{
-    margin-right: 10%;
-    margin-left: 10%;
-    text-align: left;
+.attractions-body-container {
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: left;
 }
+
 .city-info-text,
 .whats-on-text,
 .map-info,
-.info-text{
-    text-align: left;
-    padding: 20px;
-    
-}
-.sub-items-container{
-    margin-left: 5%;
-    margin-right: 5%;
+.info-text {
+	text-align: left;
+	padding: 20px;
 }
 
-/* GENERAL RULES */
+.sub-items-container {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
 
 /* FOOTER */
-.footer{
-    margin-top: 30px;
+
+.footer {
+	margin-top: 30px;
 }
+
 .social-links {
-    text-align: right;
-    padding: 0;
+	text-align: right;
+	padding: 0;
 	margin: 0 auto;
 }
 
@@ -133,400 +144,416 @@ a:hover, a:visited, a:link, a:active{
 }
 
 .footer-brand {
-    color: #000;
+	color: #000;
 }
-/* FOOTER */
 
-.index-body-container{
-    background-attachment: fixed;
-    background-color: white;
-    margin-top: 2.5%;
-    margin-left: 10%;
-    margin-right: 10%;  
-    margin-bottom: 2.5%; 
-    text-align: center;
-}
 
 /* INDEX */
 
-.index-banner-container{
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../images/rathaus-fountain.jpeg) center center no-repeat;
-    top: 0;
-    height: 600px;
-    margin: 0 auto;
-    padding: 0;
-    background-size: cover;
-    display: flex;
+.index-body-container {
+	background-attachment: fixed;
+	background-color: white;
+	margin-top: 2.5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 2.5%;
+	text-align: center;
+}
+
+.index-banner-container {
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/rathaus-fountain.jpeg) center center no-repeat;
+	top: 0;
+	height: 600px;
+	margin: 0 auto;
+	padding: 0;
+	background-size: cover;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	position: relative;
 }
-.city-image-container{
-    min-height: 300px;
-    background:  url(../images/bielefeld-city-header.jpg) center center no-repeat;
+
+.city-image-container {
+	min-height: 300px;
+	background: url(../images/bielefeld-city-header.jpg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-  
 }
-.whats-on-image-container{
-    min-height: 300px;
-    background:  url(../images/city-night-wide.jpeg) center center no-repeat;
+
+.whats-on-image-container {
+	min-height: 300px;
+	background: url(../images/city-night-wide.jpeg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-    
 }
 
-
-
-#small-map{
-    min-height: 250px;
+#small-map {
+	min-height: 250px;
 }
 
 .accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
 }
 
 .accordion:after {
-  content: '\02795'; 
-  font-size: 13px;
-  color: #777;
-  float: right;
-  margin-left: 5px;
+	content: '\02795';
+	font-size: 13px;
+	color: #777;
+	float: right;
+	margin-left: 5px;
 }
 
-.active, .accordion:hover {
-  background-color: #ccc;
+.active,
+.accordion:hover {
+	background-color: #ccc;
 }
+
 .active:after {
-  content: "\2796"; 
+	content: "\2796";
 }
+
 .panel {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
 }
-.accordion-expanded{
-    padding-top: 18px;
-    padding-bottom: 18px;
+
+.accordion-expanded {
+	padding-top: 18px;
+	padding-bottom: 18px;
 }
-/* INDEX */
 
 
 /* MAP & BUTTONS */
 
-.large-map-container{
-    
-    width: 100%;
+.large-map-container {
+	width: 100%;
 }
-#large-map{
-    height: 550px;
-    margin-right: 10%;
-    margin-left: 10%;
+
+#large-map {
+	height: 550px;
+	margin-right: 10%;
+	margin-left: 10%;
 }
-#restaurantButton{
-    background-color: #50a709;
+
+#restaurantButton {
+	background-color: #50a709;
 }
-#hotelsButton{
-    background-color: #d93f2a;
+
+#hotelsButton {
+	background-color: #d93f2a;
 }
-#todoButton{
-    background-color: #1b38b0;
+
+#todoButton {
+	background-color: #1b38b0;
 }
-#resetButton{
-    background-color: grey;
+
+#resetButton {
+	background-color: grey;
 }
-.card-container{
-    text-align: left;
+
+.card-container {
+	text-align: left;
 }
-.card-deck{
-    margin-bottom: 20px;
+
+.card-deck {
+	margin-bottom: 20px;
 }
-.card-text{
-    font-size: 15px;
+
+.card-text {
+	font-size: 15px;
 }
-#cardsParent{
-    justify-content: center;
+
+#cardsParent {
+	justify-content: center;
 }
-/* MAP */
+
 
 /* SEE&DO PAGE */
-.seedo-banner-container{
-    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(../images/bridge-far.jpg) center center no-repeat;
-    top: 0;
-    height: 600px;
-    margin: 0 auto;
-    padding: 0;
-    background-size: cover;
-    display: flex;
+
+.seedo-banner-container {
+	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(../images/bridge-far.jpg) center center no-repeat;
+	top: 0;
+	height: 600px;
+	margin: 0 auto;
+	padding: 0;
+	background-size: cover;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	position: relative;
 }
-.jumbo{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+.jumbo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-.seedo-intro{
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-.seedo-list{
-    margin-left: 5%;
-    margin-right: 5%;
+.seedo-intro {
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
-.seedo-item-container{
-    margin-left: 5%;
-    margin-right: 5%;
+.seedo-list {
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
-.attractions-image{
-    min-height: 150px;
-    background:  url(../images/castle-night.jpg) center center no-repeat;
+.seedo-item-container {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.attractions-image {
+	min-height: 150px;
+	background: url(../images/castle-night.jpg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
-.eat-drink-image{
-    min-height: 150px;
-    background:  url(../images/restaurant-icon.jpeg) center center no-repeat;
+
+.eat-drink-image {
+	min-height: 150px;
+	background: url(../images/restaurant-icon.jpeg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
-.dyk-image{
-    min-height: 150px;
-    background:  url(../images/history-icon.jpg) center center no-repeat;
+
+.dyk-image {
+	min-height: 150px;
+	background: url(../images/history-icon.jpg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
-.seedo-item{
-    display: block;
+
+.seedo-item {
+	display: block;
 }
-.seedo-text{
-    float: right;
-    padding: 20px;
+
+.seedo-text {
+	float: right;
+	padding: 20px;
 }
-.seedo-image{
-    display: inline;
+
+.seedo-image {
+	display: inline;
 }
-.sub-items-container{
-    margin-top: 5%;
-    margin-bottom: 5%;
+
+.sub-items-container {
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
-/* SEE&DO PAGE */
+
+
 /* ATTRACTIONS PAGE */
-.attractions-banner-container{
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ), url(../images/kesselbrink.jpeg) center center no-repeat;
-    top: 0;
-    height: 600px;
-    margin: 0 auto;
-    padding: 0;
-    background-size: cover;
-    display: flex;
+
+.attractions-banner-container {
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../images/kesselbrink.jpeg) center center no-repeat;
+	top: 0;
+	height: 600px;
+	margin: 0 auto;
+	padding: 0;
+	background-size: cover;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	position: relative;
 }
 
-.todo-bg-1{
-    min-height: 300px;
-    background:  url(../images/castle-night.jpg) center center no-repeat;
+.todo-bg-1 {
+	min-height: 300px;
+	background: url(../images/castle-night.jpg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
-.todo-bg-2{
-    min-height: 300px;
-    background:  url(../images/loom.jpeg) center center no-repeat;
+
+.todo-bg-2 {
+	min-height: 300px;
+	background: url(../images/loom.jpeg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-  
 }
-.todo-bg-3{
-    min-height: 300px;
-    background:  url(../images/tierpark-crop.jpeg) center center no-repeat;
+
+.todo-bg-3 {
+	min-height: 300px;
+	background: url(../images/tierpark-crop.jpeg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-  
 }
+
 
 /* FOOD PAGE */
-.food-banner-container{
-    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3) ), url(../images/weinmarkt.jpg) center center no-repeat;
-    top: 0;
-    height: 600px;
-    margin: 0 auto;
-    padding: 0;
-    background-size: cover;
-    display: flex;
+
+.food-banner-container {
+	background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../images/weinmarkt.jpg) center center no-repeat;
+	top: 0;
+	height: 600px;
+	margin: 0 auto;
+	padding: 0;
+	background-size: cover;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	position: relative;
 }
 
-.food-bg-1{
-    min-height: 300px;
-    background:  url(../images/salvas-tables.jpeg) center center no-repeat;
+.food-bg-1 {
+	min-height: 300px;
+	background: url(../images/salvas-tables.jpeg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
-.food-bg-2{
-    min-height: 300px;
-    background:  url(../images/krispy-kebab.jpg) center center no-repeat;
+
+.food-bg-2 {
+	min-height: 300px;
+	background: url(../images/krispy-kebab.jpg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
-.food-bg-3{
-    min-height: 300px;
-    background:  url(../images/nichtschwimmer.jpeg) center center no-repeat;
+
+.food-bg-3 {
+	min-height: 300px;
+	background: url(../images/nichtschwimmer.jpeg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+
 /* DYK-PAGE */
-.dyk-banner-container{
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../images/old-town.jpg) center center no-repeat;
-    top: 0;
-    height: 600px;
-    margin: 0 auto;
-    padding: 0;
-    background-size: cover;
-    display: flex;
+
+.dyk-banner-container {
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/old-town.jpg) center center no-repeat;
+	top: 0;
+	height: 600px;
+	margin: 0 auto;
+	padding: 0;
+	background-size: cover;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	position: relative;
 }
-.dyk-bg-1{
-    min-height: 300px;
-    background:  url(../images/park-woman-bike.jpg) center center no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-.dyk-bg-2{
-    min-height: 300px;
-    background:  url(../images/castle-low.jpg) center center no-repeat;
+
+.dyk-bg-1 {
+	min-height: 300px;
+	background: url(../images/park-woman-bike.jpg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
 
-
-
-
+.dyk-bg-2 {
+	min-height: 300px;
+	background: url(../images/castle-low.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
 
 /* SIGNUP FORM */
-.sign-up-banner-container{
-    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3) ), url(../images/sign-up-banner.jpg) center center no-repeat;
-    top: 0;
-    height: 500px;
-    margin: 0 auto;
-    padding: 0;
-    background-size: cover;
-    display: flex;
+
+.sign-up-banner-container {
+	background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(../images/sign-up-banner.jpg) center center no-repeat;
+	top: 0;
+	height: 500px;
+	margin: 0 auto;
+	padding: 0;
+	background-size: cover;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	position: relative;
-    margin-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 .center-form {
 	margin: 0 auto;
 }
 
-
 input[type="submit"] {
-  display: block;
-  padding: 6px 30px;
-  font-size: 35px;
-  border: none
+	display: block;
+	padding: 6px 30px;
+	font-size: 35px;
+	border: none
 }
-
-
-
 
 
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 900px) {
-    .card-deck{
-        flex-direction: column;
-    }
-    .b-label{
-        font-size: 18px;
-    }
+	.card-deck {
+		flex-direction: column;
+	}
+	.b-label {
+		font-size: 18px;
+	}
 }
 
 @media only screen and (max-width: 769px) {
-    .index-banner-container,
-    .seedo-banner-container,
-    .attractions-banner-container,
-    .food-banner-container,
-    .dyk-banner-container,
-    .sign-up-banner-container{
-        max-height: 300px;
-    }
-    
-    .city-image-container,
-    .map-info,
-    .whats-on-image-container,
-    .seedo-image {
-        display: none;
-    }
-    .footer,
-    .social-links{
-        text-align: center;
-    }
-    .jumbotron-sub{
-        font-size: 18px; 
-    }
-    .hind-jumbotron{
-        font-size: 50px;
-    }
-    
-    
+	.index-banner-container,
+	.seedo-banner-container,
+	.attractions-banner-container,
+	.food-banner-container,
+	.dyk-banner-container,
+	.sign-up-banner-container {
+		max-height: 300px;
+	}
+	.city-image-container,
+	.map-info,
+	.whats-on-image-container,
+	.seedo-image {
+		display: none;
+	}
+	.footer,
+	.social-links {
+		text-align: center;
+	}
+	.jumbotron-sub {
+		font-size: 18px;
+	}
+	.hind-jumbotron {
+		font-size: 50px;
+	}
 }
 
 @media only screen and (max-width: 530px) {
-    
-    .hind-title{
-        font-size: 20px;
-    }
-
+	.hind-title {
+		font-size: 20px;
+	}
 }
-

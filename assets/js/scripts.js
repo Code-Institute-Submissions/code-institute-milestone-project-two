@@ -1,26 +1,11 @@
-// INIT SMALL MAP
+// VARIABLES
 let map;
-
-function initMap() {
-    map = new google.maps.Map(document.getElementById("small-map"), {
-    center: {
-        lat: 52.022,
-        lng: 8.532,
-        },
-        zoom: 13,
-        // mapTypeId: 'hybrid'
-
-        });
-    }
-// INIT SMALL MAP
-
-
-// ACCORDION
 var acc = document.getElementsByClassName("accordion");
 var i;
 
+// ACCORDION
 for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
+  acc[i].addEventListener("click", function () {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     if (panel.style.maxHeight) {
@@ -31,4 +16,14 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-// ACCORDION
+// INIT SMALL INDEX MAP
+function initMap() {
+  map = new google.maps.Map(document.getElementById("small-map"), {
+    center: {
+      lat: 52.022,
+      lng: 8.532,
+    },
+    zoom: 13,
+    // mapTypeId: 'hybrid'
+  });
+}
