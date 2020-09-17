@@ -3,6 +3,7 @@
 
 ## *Explore Bielefeld - Tourism Information Site and Map Application.*
 
+
 ## Tourism-based Website built using HTML, CSS & JavaScript, with the aim of providing travel information to a user in a stylish and clean UI, centered around a JavaScript oriented, interactive experience.
 
 ## Deployed link : https://mattingliscoding.github.io/code-institute-milestone-project-two/
@@ -140,3 +141,4 @@ All photographic media is taken from:
 * W3Schools.com 
 * mdbootstrap.com
 * https://material.io
+
