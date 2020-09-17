@@ -72,7 +72,7 @@ The site has been extensively tested on a range of screen sizes, despite Bootstr
 ### Email.js Testing
 
 Email.js provides a fantastic platform for the creation of templates, and a handy JSFiddle window to preview, and tweak the code for the email form. I used this built-in feature extensively to test the service and make sure I was using the correct selectors. 
-
+*Please refer to the [images in the docs folder](https://github.com/mattingliscoding/code-institute-milestone-project-two/tree/master/docs) of the repo to see the Email.js template*
  
 Click below to see a short screen-recorded video I made, to show how the two separate recipients receive their relevant responses:
 
