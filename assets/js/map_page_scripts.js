@@ -16,10 +16,11 @@ var openMarker;
 var markersLoaded = {};
 var placesInformation = {};
 var service;
-var placeInformation = {};
 var jsonDataCache = {};
 
 // INITMAP
+
+
 $(document).ready(function () {
   initMap();
 });
@@ -47,7 +48,7 @@ $("#hotelsButton").on("click", function () {
       "assets/images/icons/hotelIcon.png",
       hotelDisplayFunction
     );
-    markersLoaded[placeType] = true;
+    markersLoaded[placeType] = true;      
   }
 });
 
@@ -61,7 +62,7 @@ $("#todoButton").on("click", function () {
       thingsToDoDisplayFunction
     );
     markersLoaded[placeType] = true;
-  }
+  } 
 });
 
 $("#restaurantButton").on("click", function () {
@@ -74,7 +75,7 @@ $("#restaurantButton").on("click", function () {
       restaurantDisplayFunction
     );
     markersLoaded[placeType] = true;
-  }
+  } 
 });
 
 // MAP FUNCTIONS
@@ -85,17 +86,18 @@ $("#resetButton").on("click", function () {
   $("#cardsParent").empty();
 });
 
+
+
+
 function getCardHtml(place) {
   let parent = $("#cardsParent")[0];
   htmlToAdd = `<div class="card-deck col-12 col-md-6">
                     <div class="card shadow">
                         <div class="card-body">
-                            <h5 class="card-title hind-card">${place.name}</h5>
+                            <h5 class="card-title hind-card hvr-shrink"><a href="${place.website}" target="_blank">${place.name} →</a></h5>
                             <h5 class="card-title hind-card">${place.rating} / 5</h5>
                             <p class="address"><i class="fas fa-map-marked-alt"></i> : ${place.formatted_address}</p>
                             <p class="number"><i class="fas fa-phone"></i> : ${place.formatted_phone_number}</p>
-                           
-                            <p class="card-text"><small class="text-muted"><a href="${place.website}">Click here to view website</a></small></p>
                         </div>
                     </div>
                 </div>`;
@@ -121,10 +123,7 @@ function getInfoFromPlacesAPI(placeKind, places) {
         "rating",
         "formatted_phone_number",
         "formatted_address",
-        "icon",
-        "reviews",
         "website",
-        "photo",
       ],
     };
     service.getDetails(request, placesCallback); // Fetch the data
@@ -189,6 +188,7 @@ function loadMarkers(placeType, jsonPath, iconPath, infoDisplayFunction) {
       let content = infoDisplayFunction(data);
       addMarkerListener(content, marker);
     });
-    getInfoFromPlacesAPI(placeType, jsonData);
+    setTimeout(function(){ getInfoFromPlacesAPI(placeType, jsonData); }, 3000);
+    
   });
 }

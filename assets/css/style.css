@@ -535,7 +535,6 @@ input[type="submit"] {
 		max-height: 300px;
 	}
 	.city-image-container,
-	.map-info,
 	.whats-on-image-container,
 	.seedo-image {
 		display: none;
